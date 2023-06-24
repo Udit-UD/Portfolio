@@ -1,0 +1,94 @@
+.about-container{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-me-section{
+    width: 80%;
+    height: 80vh;
+    position: relative;
+}
+.about-box{
+    position: absolute;
+    top: 53%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 60%;
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.about-left-box{
+    width: 42%;
+    height: 100%;
+}
+
+.about-left-box > img{
+    height: 100%;
+    width: 100%;    
+    border-radius: 25px;
+}
+
+.about-right-box{
+    width: 50%;
+    height: 90%;
+    padding: 2%;
+    padding-left: 4%;
+}
+.about-right-box > h3{
+    text-align: left;
+    font-weight: bolder;
+    margin: 0px;
+    color: rgb(18, 63, 200);
+}
+
+.about-right-box > .description{
+    text-align: justify;
+}
+
+.social-stack{
+    font-family: 'Lato';
+    margin-top: 25px;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    
+}
+
+
+.social-handles{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-handles>span{
+    width: 50px;
+    height: 40px;
+}
+.social-image{
+    padding-left: 25px;
+    height: 35px;
+    width: 35px;
+    transition: all 0.3s ease;
+}
+
+.social-image:hover{
+    height: 40px;
+    width: 40px;
+    filter: grayscale(0%);
+}
+
+#gmail{
+    width: 38px;
+}
+#gmail:hover{
+    width: 42px;
+}
