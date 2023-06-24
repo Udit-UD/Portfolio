@@ -1,0 +1,35 @@
+.contact-container{
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.contact-box{
+    /* border: 2px solid black; */
+    width: 70%;
+    height: 80%;
+}
+.contact-content{
+    width: 100%;
+    /* border: 2px solid red; */
+    height: 70%;
+    margin-top: 2%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.contact-item{
+    /* border: 2px solid black; */
+    height: 30%;
+    width: 20%;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Lato';
+    font-weight: 600;
+}

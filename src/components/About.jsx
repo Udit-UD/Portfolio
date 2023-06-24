@@ -10,7 +10,7 @@ export default function About() {
             <h2 className="headings">About Me</h2>
             <h3
               className="description"
-              style={{ color: "rgb(31 41 129)", fontWeight: 700 }}
+              style={{ color: "rgb(31 41 129)", fontWeight: 700, paddingLeft: "4%" }}
             >
               Passionate Creator of Engaging Digital Experiences 💻
             </h3>

@@ -12,7 +12,7 @@ const Projects = () => {
             <h2 className="headings">Projects</h2>
             <h3
               className="description"
-              style={{ color: "#E18A07", fontWeight: 600 }}
+              style={{ color: "#E18A07", fontWeight: 600, paddingLeft: "4%" }}
             >
               Transforming Ideas into Impactful Reality 💸
               
