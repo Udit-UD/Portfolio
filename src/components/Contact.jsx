@@ -9,12 +9,12 @@ export default function Contact() {
     <>
         <div className="contact-container" id='contact'>
             <div className="contact-box">
-                <span>
+                <span className='contact-span'>
                     <h2 className="headings">
                         Contact Me
                     </h2>
                     <h3 className="description"
-                      style={{ color: "#E18A07", fontWeight: 600, paddingLeft: "4%" }}   
+                      style={{ color: "rgb(7 135 156)", fontWeight: 600, paddingLeft: "4%" }}   
                     >
                         Don't be shy, Hit me Up 👇
                     </h3>

@@ -6,7 +6,7 @@ export default function About() {
     <>
       <div className="about-container" id="about">
         <div className="about-me-section">
-          <span>
+          <span className="about-span">
             <h2 className="headings">About Me</h2>
             <h3
               className="description"

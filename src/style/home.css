@@ -7,7 +7,6 @@
 .home-container{
     width: 100%;
     min-height: 95vh;
-    margin-top: 4vh;
     height: auto;
     display: flex;
     margin-bottom: 5vh;
@@ -161,6 +160,12 @@
     .left-box{
         order: 2;
         width: 80%;
+    }
+    .intro-heading{
+        font-size: 1.5rem;
+    }
+    #main-desc{
+        font-size: 1.1rem;
     }
     .box2{
         order: 0;

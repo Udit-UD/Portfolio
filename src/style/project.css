@@ -19,19 +19,20 @@ html{
 .project-box{
     width: 80%;
     margin-top: 10vh;
-    padding-left: 5%;
 }
 
 .projects{
-    width: 90%;
+    width: 100%;
     margin-top: 2%;
     height: auto;
     display: flex;
+    justify-content: center;
     flex-direction: column;
     align-items: center;
 }
 .project-div{
     display: flex;
+    flex-direction: row;
     align-items: center;
     padding: 1em;
     width: 94%;
@@ -67,9 +68,10 @@ html{
 
 .description>p{
     text-align: center;
+    font-size: 1.2rem;
 }
 .projects-buttons-span{
-    margin: 30px;
+    margin: 30px 30px;
     display: flex;
     justify-content: space-evenly;
     width: 80%;
@@ -101,4 +103,61 @@ html{
     width: 50px;
     height: 50px;
     margin: 0px 15px;
+}
+
+@media (max-width: 1024px){
+    .headings{
+        font-size: 2rem;
+    }
+
+    .description>p{
+        font-size: 1.0rem;
+    }
+    .project-heading{
+        font-size: 1.2rem;
+    }
+    .tech-stack>span>img{
+        width: 30px;
+        height: 30px;
+    }
+    .tech-stack>h3{
+        display: none;
+    }
+    .projBtn{
+        font-size: 0.7rem;
+        padding: 10px 12px;
+    }
+    .projects-buttons-span{
+        width: 150px;
+    }
+}
+
+@media (max-width: 630px){
+    .project-div{
+        flex-direction: column;
+    }
+    .left-box-project{
+        width: 80%;
+        order: 0 !important;
+    }
+    .right-box-project{
+        width: 90%;
+        padding: 0.5em;
+    }
+    .headings{
+        font-size: 1.5rem;
+    }
+
+    .description>p{
+        font-size: 1.0rem;
+    }
+    .project-heading{
+        font-size: 1.0rem;
+    }
+    .projects-buttons-span{
+        width: 70%; 
+    }
+    .project-box{
+        width: 90%;
+    }
 }

@@ -32,12 +32,15 @@ const Home = ()=>{
                             <h1 className='intro-heading'> A &nbsp;  
                             <span ref={el} /> 🚀</h1>
                             <br />
-                            <h3 className='description'>
+                            <h3 id="main-desc" className='description'>
                             Hi, I am Udit Gupta, a passionate full stack developer on a mission to transform ideas into powerful, scalable web applications that make a lasting impact.
                             </h3>
                             <br />
                             <span className="buttons-section" style={{display: "flex", flexWrap: 'no-wrap'}}>
-                                <button className='buttons'id="resume" >Resume <BsDownload/></button>
+                                <a href="Resume.pdf" target="_blank"  rel="noopener noreferrer" download>
+                                    <button className='buttons'id="resume" >Resume <BsDownload/></button>
+
+                                </a>
                                 <a href={githubLink} target="_blank"  rel="noopener noreferrer">
                                 <button id="github" className='buttons'>
                                     Github <BsGithub />

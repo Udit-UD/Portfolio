@@ -46,7 +46,11 @@
 }
 .mobile-menu >ul>li{
     padding: 1em 1em;
+    width: 100%;
+    text-align: center;
+
 }
+
 .mobile-menu >ul>li>a{
     color: black;
 }
@@ -72,6 +76,9 @@
 @media (max-width: 850px){
     .nav-part-1{
         padding: 1em 1em;
+    }
+    .primary-logo{
+        font-size: 1.2rem;
     }
     .nav-part-2{
         padding-right: 1em;
