@@ -36,31 +36,17 @@ const Home = ()=>{
                             Hi, I am Udit Gupta, a passionate full stack developer on a mission to transform ideas into powerful, scalable web applications that make a lasting impact.
                             </h3>
                             <br />
-                            <span className="buttons-section">
-                                <button className='buttons'>Resume <BsDownload/></button>
-                                <button className='buttons'>
-
-                                <a href={githubLink} target="_blank" rel="noopener noreferrer">
+                            <span className="buttons-section" style={{display: "flex", flexWrap: 'no-wrap'}}>
+                                <button className='buttons'id="resume" >Resume <BsDownload/></button>
+                                <a href={githubLink} target="_blank"  rel="noopener noreferrer">
+                                <button id="github" className='buttons'>
                                     Github <BsGithub />
-                                </a>
-
                                 </button>
+                                </a>
                             </span>
 
                         </div>
                         
-                        <div className="skills">
-                            <h2 className="heading">
-                                Tech Stack <span style={{paddingLeft: "10px"}}> | </span>
-                            </h2>
-                            <img src="Images/htmlCssJs.png" alt="" />
-                            <img src="Images/mongoDB.png" alt="" />
-                            <img src="Images/nodeJS.png" alt="" />
-                            <img src="Images/reactJS.png" alt="" />
-                            <img src="Images/tailwind.png" alt="" />
-
-                        </div>
-
                     </div>
                     </div>
                     
@@ -70,7 +56,25 @@ const Home = ()=>{
                         <img src="Images/Udit-Img.jpg" alt="" />
                         </div>
                     </div>
+
+                    <div className="break"></div>
+                    <div className='skill-span'>
+                            <h2 className="heading" >
+                                    Tech Stack 
+                            </h2>
+                            <div className="skills">
+                                
+                                <img src="Images/htmlCssJs.png" alt="" />
+                                <img src="Images/mongoDB.png" alt="" />
+                                <img src="Images/nodeJS.png" alt="" />
+                                <img src="Images/reactJS.png" alt="" />
+                                <img src="Images/tailwind.png" alt="" />
+
+                            </div>
                 </div>
+
+                </div>
+                
 
             </div>
             
