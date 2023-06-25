@@ -39,3 +39,7 @@
 .nav-part-2>ul>li{
     padding: 1em 1em;
 }
+
+.nav-part-2>ul>li>a{
+    color: #000000;
+}

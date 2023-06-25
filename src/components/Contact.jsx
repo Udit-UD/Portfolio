@@ -39,7 +39,7 @@ export default function Contact() {
                             <SiGmail/> 
                         </span>
                         <div style={{paddingLeft: "1em"}}>
-                        <span style={{color: "ff1010", fontWeight: "bolder"}}>
+                        <span style={{color: "#ff1010", fontWeight: "bolder"}}>
                             Mail
                         </span>
                         <h4>
