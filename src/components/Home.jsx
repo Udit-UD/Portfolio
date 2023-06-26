@@ -41,7 +41,7 @@ const Home = ()=>{
                                     <button className='buttons'id="resume" >Resume <BsDownload/></button>
 
                                 </a>
-                                <a href={githubLink} target="_blank"  rel="noopener noreferrer">
+                                <a href={githubLink} target="_blank"  rel="noopener noreferrer" style={{marginLeft: "1em"}}>
                                 <button id="github" className='buttons'>
                                     Github <BsGithub />
                                 </button>

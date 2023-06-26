@@ -117,3 +117,10 @@
         margin-top: 0%;
     }
 }
+
+@media(max-width: 360px){
+    
+    .social-stack>h3>span{
+        display: none;
+    }
+}
