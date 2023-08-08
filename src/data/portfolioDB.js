@@ -11,7 +11,7 @@ const projectDB = [{
     image: "Images/project2.png",
     title: "SpiderMonkey 🕷",
     description: `SpiderMonkey is a versatile <b> web scraping tool </b> designed to extract search results from various e-commerce platforms, including Flipkart, SnapDeal, and Bewakoof. With SpiderMonkey, users can conveniently compare product prices across these websites, streamlining the process of finding the best deals.`,
-    github: "https://github.com/Udit-UD/SpiderMonkey",
+    github: "https://github.com/Udit-UD/Spider-Monkey",
     demo: "#",
     tech: ["Images/htmlCssJs.png", "Images/django.png", "Images/python.png"]
 },{
